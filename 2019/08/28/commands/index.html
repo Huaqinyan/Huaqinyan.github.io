@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="en">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.2.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.2.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.2.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="关于创建博客的一些窗口命令运行窗口命令：简写指令:12345678hexo n &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new post &amp;quot;我的第一篇文章&amp;quot;.hexo p &amp;lt;=&amp;gt; hexo publishhexo g &amp;lt;=&amp;gt; hexo generate">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Common commands">
+<meta property="og:url" content="https://Huaqinyan.github.io.git/2019/08/28/commands/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="关于创建博客的一些窗口命令运行窗口命令：简写指令:12345678hexo n &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new post &amp;quot;我的第一篇文章&amp;quot;.hexo p &amp;lt;=&amp;gt; hexo publishhexo g &amp;lt;=&amp;gt; hexo generate">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-08-28T05:06:30.649Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Common commands">
+<meta name="twitter:description" content="关于创建博客的一些窗口命令运行窗口命令：简写指令:12345678hexo n &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new &amp;quot;我的第一篇文章&amp;quot;&amp;lt;=&amp;gt;hexo new post &amp;quot;我的第一篇文章&amp;quot;.hexo p &amp;lt;=&amp;gt; hexo publishhexo g &amp;lt;=&amp;gt; hexo generate">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="https://Huaqinyan.github.io.git/2019/08/28/commands/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Common commands | Hexo</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://Huaqinyan.github.io.git/2019/08/28/commands/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Huaqinyan">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Common commands
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+
+          
+          
+          
+
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-08-28 13:01:03 / Modified: 13:06:30" itemprop="dateCreated datePublished" datetime="2019-08-28T13:01:03+08:00">2019-08-28</time>
+            </span>
+          
+
+          
+            
+
+            
+          
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          <br>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="关于创建博客的一些窗口命令"><a href="#关于创建博客的一些窗口命令" class="headerlink" title="关于创建博客的一些窗口命令"></a>关于创建博客的一些窗口命令</h1><h2 id="运行窗口命令："><a href="#运行窗口命令：" class="headerlink" title="运行窗口命令："></a>运行窗口命令：</h2><h3 id="简写指令"><a href="#简写指令" class="headerlink" title="简写指令:"></a>简写指令:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">hexo n &quot;我的第一篇文章&quot;&lt;=&gt;hexo new &quot;我的第一篇文章&quot;&lt;=&gt;hexo new post &quot;我的第一篇文章&quot;.</span><br><span class="line">hexo p &lt;=&gt; hexo publish</span><br><span class="line">hexo g &lt;=&gt; hexo generate  </span><br><span class="line">hexo s &lt;=&gt; hexo server     </span><br><span class="line">hexo d &lt;=&gt; hexo deploy</span><br><span class="line">hexo deploy -g  &lt;=&gt; hexo deploy --generate</span><br><span class="line">hexo generate -d &lt;=&gt; hexo generate --deploy</span><br><span class="line">注: hexo  clean 没有 简写,  git --version 没有简写</span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+<h3 id="指令说明"><a href="#指令说明" class="headerlink" title="指令说明:"></a>指令说明:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">hexo server         #Hexo 会监视文件变动并自动更新，除修改站点配置文件外,无须重启服务器,直接刷新网页即可生效。</span><br><span class="line">hexo server -s      #以静态模式启动</span><br><span class="line">hexo server -p 5000 #更改访问端口   (默认端口为4000，&apos;ctrl + c&apos;关闭server)</span><br><span class="line">hexo server -i IP地址 #自定义 IP</span><br><span class="line">hexo clean          #清除缓存,网页正常情况下可以忽略此条命令,执行该指令后,会删掉站点根目录下的public文件夹</span><br><span class="line">hexo g              #生成静态网页  (执行 $ hexo g后会在站点根目录下生成public文件夹, hexo会将&quot;/blog/source/&quot;   下面的.md后缀的文件编译为.html后缀的文件,存放在&quot;/blog/public/ &quot;   路径下)</span><br><span class="line">hexo d              #将本地数据部署到远端服务器(如github)</span><br><span class="line">hexo init 文件夹名称 #初始化XX文件夹名称</span><br><span class="line">npm update hexo -g  #升级</span><br><span class="line">npm install hexo -g #安装</span><br><span class="line">node -v        #查看node.js版本号</span><br><span class="line">npm -v         #查看npm版本号</span><br><span class="line">git --version  #查看git版本号</span><br><span class="line">hexo -v        #查看hexo版本号</span><br><span class="line">hexo publish [layout] &lt;title&gt;   #通过 publish 命令将草稿移动到 source/_posts 文件夹,如:$ hexo publish [layout] &lt;title&gt;,草稿默认是不会显示在页面中的，可在执行时加上 --draft 参数，或是把 render_drafts 参数设为 true来预览草稿。</span><br><span class="line">hexo new aaa &quot;bbb&quot;       # 新建一篇文章,文章名称和标题分别为bbb.md 和 bbb.   文章采用aaa布局,  此时会在站点根目录下的----&gt;source-----&gt;_post文件夹下生成bbb.md文件,  bbb.md文件的顶部(-----分割线上方区域,也称作Front matter区),生成</span><br><span class="line">layout : aaa</span><br><span class="line">title:</span><br><span class="line">date:</span><br><span class="line"></span><br><span class="line">hexo g：代表本地文件生成。</span><br><span class="line">hexo s -p 5555: 5555是本地端口，用localhost.5555打开（无需联网），可以查看做的成效，然后推送到远端，ctrl+c可以终止批处理操作。</span><br><span class="line">hexo d：是推送到远端，用Huaqinyan.hithub.io打开。</span><br></pre></td></tr></table></figure>
+
+<h2 id="Git-Bash-Here窗口命令："><a href="#Git-Bash-Here窗口命令：" class="headerlink" title="Git Bash Here窗口命令："></a>Git Bash Here窗口命令：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">创建文件：（vim &quot;文件名.md&quot;）：创建文件后会进入编译模式。</span><br><span class="line">按esc会从编译到命令，再输入ZZ（大写），会退出并保存。</span><br><span class="line">按esc会从编译到命令，再输入：wq可保存退出。</span><br></pre></td></tr></table></figure>
+
+<h2 id="Sublime设置题目、分类、标签"><a href="#Sublime设置题目、分类、标签" class="headerlink" title="Sublime设置题目、分类、标签"></a>Sublime设置题目、分类、标签</h2><p>在Markdown文件的开头添加  </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">--- </span><br><span class="line"> title: 你的题目</span><br><span class="line"></span><br><span class="line"> tags:  你的标签</span><br><span class="line"></span><br><span class="line"> category: 你的分类</span><br><span class="line"></span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/08/27/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/28/Insert pictures/" rel="prev" title="Insert pictures">
+                Insert pictures <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Huaqinyan</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#关于创建博客的一些窗口命令"><span class="nav-number">1.</span> <span class="nav-text">关于创建博客的一些窗口命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#运行窗口命令："><span class="nav-number">1.1.</span> <span class="nav-text">运行窗口命令：</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#简写指令"><span class="nav-number">1.1.1.</span> <span class="nav-text">简写指令:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#指令说明"><span class="nav-number">1.1.2.</span> <span class="nav-text">指令说明:</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git-Bash-Here窗口命令："><span class="nav-number">1.2.</span> <span class="nav-text">Git Bash Here窗口命令：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sublime设置题目、分类、标签"><span class="nav-number">1.3.</span> <span class="nav-text">Sublime设置题目、分类、标签</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Huaqinyan</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.2.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.2.0"></script>
+
+  <script src="/js/motion.js?v=7.2.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/affix.js?v=7.2.0"></script>
+
+  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
+
+
+
+  
+  <script src="/js/scrollspy.js?v=7.2.0"></script>
+<script src="/js/post-details.js?v=7.2.0"></script>
+
+
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
