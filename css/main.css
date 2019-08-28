@@ -1741,7 +1741,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #631720;
+  background: #29e7ff;
 }
 .feed-link,
 .chat {
@@ -2753,15 +2753,8 @@ ul.breadcrumb li+li:last-child {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.main-inner {
-  margin-top: 60px;
-  padding: 60px 60px 60px 60px;
-  background: #fff;
-  opacity: 0.9;
-  min-height: 500px;
-}
 body {
-  background: url("https://source.unsplash.com/random/1600x900");
+  background: url("/images/2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
