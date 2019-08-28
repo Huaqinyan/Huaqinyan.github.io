@@ -1741,7 +1741,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #29e7ff;
+  background: #65c9d2;
 }
 .feed-link,
 .chat {
@@ -2752,6 +2752,9 @@ ul.breadcrumb li+li:last-child {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+.main-inner {
+  opacity: 0.9;
 }
 body {
   background: url("/images/2.jpg");
